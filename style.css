@@ -1,0 +1,202 @@
+.navigation
+{
+    text-align: center;
+    padding: .6rem 2rem;
+}
+
+
+.search-bar
+{
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: .6rem 1rem;
+    outline:none;
+    width: 100%;
+
+}
+
+
+  /* Dropdown Button */
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color:black;text-decoration: none;}         
+
+
+
+  /* buttons////////////////////////////////// */
+
+  .login-button
+  {
+     background-color:rgba(1, 187, 255, 0.693);
+     border-color:rgba(1, 187, 255, 0.809);
+     padding: .35rem 1.3rem;
+  }
+  .signup-button
+  {
+      border-color:rgba(1, 187, 255, 0.809) ;
+      color: rgba(1, 187, 255, 0.809);
+      padding: .35rem 1.3rem;
+  }
+
+
+  /* dropdown sub menu/////////////////// */
+
+  .submenu-1
+  {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display:none;
+
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+    .submenu-1-holder:hover .submenu-1 
+  {
+    display:block;
+    
+  }
+
+
+
+
+  /* trial sub menu//////////////////////// */
+
+  .trial-menu
+  {
+    display: none;
+    position: absolute;
+    list-style-type:none;
+    text-align: center;
+    padding: 0;
+    
+    
+    
+
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  .trial-menu li a, .trial-menu li
+  {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .trial-menu li:hover 
+  {
+    background-color: #ddd;
+  }
+
+  .hover-me-1:hover .trial-menu 
+  {
+    display: block;
+  }
+
+
+
+  /* trial sub menu ///////////////// */
+.trial-sub-menu
+{
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display:none;
+  padding: 0;
+
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.hover-me-2:hover .trial-sub-menu
+{
+  display: block;
+}
+
+
+.container{
+  
+  max-width: 100%;
+
+}
+
+
+.col-6,.col-md-4,.col-2,.col-sm
+{
+  padding: 0px;
+}
+
+
+@media only screen and (max-width: 992px) 
+{
+  .signup-button
+  {
+    margin-bottom: .3rem;
+  }
+
+.login-button
+{
+  padding: .35rem 1.6rem;
+}
+
+
+}
+
+
+@media only screen and (max-width: 762px)
+
+{
+ .signup-button ,.login-button
+ {
+   margin-top: .5rem;
+ }
+
+
+}
